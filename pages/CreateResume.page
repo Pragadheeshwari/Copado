@@ -1,0 +1,47 @@
+<!-- Purpose: To create resume object record with a attachment and overrided with new -->
+<apex:page standardController="Resume__c" extensions="AttachmentUploadController">  
+  <apex:sectionHeader title="Add Resume"/>
+
+  <apex:form enctype="multipart/form-data">
+    <apex:pageMessages />
+    <apex:pageBlock title="Upload a Attachment">
+
+      <apex:pageBlockButtons >
+        <apex:commandButton action="{!upload}" value="Save"/>
+      </apex:pageBlockButtons>
+
+      <apex:pageBlockSection showHeader="false" columns="2" id="block1">
+
+        <apex:pageBlockSectionItem >
+          <apex:outputLabel value="Resume Name" for="fileName"/>
+          <apex:inputField value="{!Resume__c.name}" id="fileName"/>
+        </apex:pageBlockSectionItem>
+        
+        <apex:pageBlockSectionItem >
+          <apex:outputLabel value="Candidate" for="candidateName"/>
+          <apex:inputField value="{!Resume__c.Candidate__c}" id="candidateName"/>
+        </apex:pageBlockSectionItem>
+        
+        <apex:pageBlockSectionItem >
+          <apex:outputLabel value="Status" for="fileName"/>
+          <apex:inputField value="{!Resume__c.Status__c}" id="fileName"/>
+        </apex:pageBlockSectionItem>
+        
+
+        <apex:pageBlockSectionItem >
+          <apex:outputLabel value="Attach Resume" for="file"/>
+          <apex:inputFile value="{!attachment.body}" filename="{!attachment.name}" id="file"/>
+        </apex:pageBlockSectionItem>
+        
+        
+
+        <apex:pageBlockSectionItem >
+          <apex:outputLabel value="Description" for="description"/>
+          <apex:inputTextarea value="{!attachment.description}" id="description"/>
+        </apex:pageBlockSectionItem>
+
+      </apex:pageBlockSection>
+
+    </apex:pageBlock>
+  </apex:form>
+</apex:page>

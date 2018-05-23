@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <webLinks>
+        <fullName>copado__New_Version</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>New Version</masterLabel>
+        <openType>sidebar</openType>
+        <page>copado__CloneSeleniumTestCase</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>copado__Promote_Version</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Promote to this version</masterLabel>
+        <openType>noSidebar</openType>
+        <page>copado__SeleniumTestCasePromote</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>copado__Quick_Run</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Quick Run</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/{!IF($Setup.copado__Settings__c.copado__Namespace__c=&apos;none&apos;,&apos;&apos;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&apos;copado__&apos;,$Setup.copado__Settings__c.copado__Namespace__c))}SeleniumTestQuickRun?caseId={!copado__Selenium_Test_Case__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>copado__Rollback_to_Previous_Version</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Rollback to Previous Version</masterLabel>
+        <openType>noSidebar</openType>
+        <page>copado__SeleniumTestCaseRollback</page>
+        <protected>false</protected>
+    </webLinks>
+</CustomObject>
