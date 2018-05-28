@@ -66,4 +66,7 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <label>Copado Smart Help</label>
+    <pluralLabel>Copado Smart Helps</pluralLabel>
+    <visibility>Public</visibility>
 </CustomObject>

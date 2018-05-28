@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>Email__c</fullName>
         <externalId>false</externalId>
@@ -10,4 +12,6 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <label>Copado_CS</label>
+    <visibility>Public</visibility>
 </CustomObject>
