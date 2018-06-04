@@ -88,4 +88,8 @@
         <name>copado__Copado_Selenium_Testing</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>standard__LightningInstrumentation</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

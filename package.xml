@@ -143,6 +143,7 @@
   </types>
   <types>
     <members>Account</members>
+    <members>AccountBrand</members>
     <members>AccountCleanInfo</members>
     <members>AccountContactRole</members>
     <members>Activity</members>
@@ -198,6 +199,7 @@
     <members>PricebookEntry</members>
     <members>Product2</members>
     <members>QuickText</members>
+    <members>RecordAction</members>
     <members>Resume__c</members>
     <members>Scorecard</members>
     <members>ScorecardAssociation</members>
@@ -513,6 +515,8 @@
     <members>standard-Asset</members>
     <members>standard-Campaign</members>
     <members>standard-Case</members>
+    <members>standard-ChannelProgram</members>
+    <members>standard-ChannelProgramLevel</members>
     <members>standard-Chatter</members>
     <members>standard-CollaborationGroup</members>
     <members>standard-Contact</members>
@@ -533,6 +537,10 @@
     <members>standard-Opportunity</members>
     <members>standard-Order</members>
     <members>standard-OtherUserProfile</members>
+    <members>standard-PartnerFundAllocation</members>
+    <members>standard-PartnerFundClaim</members>
+    <members>standard-PartnerFundRequest</members>
+    <members>standard-PartnerMarketingBudget</members>
     <members>standard-Pricebook2</members>
     <members>standard-Product2</members>
     <members>standard-ProfilePlatformFeed</members>
@@ -552,6 +560,7 @@
     <members>Account-Account %28Sales%29 Layout</members>
     <members>Account-Account %28Support%29 Layout</members>
     <members>Account-Account Layout</members>
+    <members>AccountBrand-Account BrandLayout</members>
     <members>Application__c-Application Layout</members>
     <members>Asset-Asset Layout</members>
     <members>AssetRelationship-Asset Relationship Layout</members>
@@ -768,6 +777,7 @@
     <members>copado__Copado_Deployer/copado__Deployment_Result_Summary</members>
     <members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
     <members>unfiled$public/CommunityForgotPasswordEmailTemplate</members>
+    <members>unfiled$public/CommunityLockoutEmailTemplate</members>
     <members>unfiled$public/CommunityWelcomeEmailTemplate</members>
     <members>unfiled$public/MarketingProductInquiryResponse</members>
     <members>unfiled$public/PartnerChangePwdEmail</members>
@@ -1310,6 +1320,7 @@
     <members>standard__Chatter</members>
     <members>standard__Community</members>
     <members>standard__Content</members>
+    <members>standard__LightningInstrumentation</members>
     <members>standard__LightningSales</members>
     <members>standard__LightningSalesConsole</members>
     <members>standard__LightningService</members>
@@ -1508,9 +1519,15 @@
     <members>ChannelProgram</members>
     <members>Contact</members>
     <members>Copado_CS__c</members>
+    <members>FlowInterview</members>
     <members>Lead</members>
+    <members>ListEmail</members>
     <members>Opportunity</members>
     <members>Order</members>
+    <members>PartnerFundAllocation</members>
+    <members>PartnerFundClaim</members>
+    <members>PartnerFundRequest</members>
+    <members>PartnerMarketingBudget</members>
     <members>Position__c</members>
     <members>User</members>
     <members>copado__Artifact__c</members>
@@ -1775,7 +1792,6 @@
     <members>Order</members>
     <members>OrgPreference</members>
     <members>PathAssistant</members>
-    <members>PersonalJourney</members>
     <members>Product</members>
     <members>Quote</members>
     <members>Search</members>

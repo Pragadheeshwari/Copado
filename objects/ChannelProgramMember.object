@@ -43,6 +43,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>PartnerId</fullName>
         <type>Lookup</type>
     </fields>
