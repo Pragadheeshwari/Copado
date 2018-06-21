@@ -127,4 +127,19 @@
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <recordTypes>
+        <fullName>Test_Devops_poc</fullName>
+        <active>true</active>
+        <label>Test Devops poc</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Test_Devops_poc2</fullName>
+        <active>true</active>
+        <label>Test Devops poc2</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Test_Devops_poc3</fullName>
+        <active>true</active>
+        <label>Test Devops poc3</label>
+    </recordTypes>
 </CustomObject>
